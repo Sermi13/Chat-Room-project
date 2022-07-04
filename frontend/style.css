@@ -8,7 +8,7 @@ body {
 }
 .chatbox-holder {
   position: fixed;
-  top: 90%;
+  bottom: 0;
   background-color: rgb(61, 45, 121);
   width: 100%;
   height: 4rem;
