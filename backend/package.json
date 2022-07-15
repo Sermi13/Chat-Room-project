@@ -4,7 +4,7 @@
   "description": "This is a project of a chatting web app, it will push me into learning how to build web apps better.",
   "main": "index.js",
   "scripts": {
-    "devStart":"nodemon ./src/index.js",
+    "devStart": "nodemon ./src/index.js",
     "test": "devStart"
   },
   "repository": {
@@ -26,6 +26,8 @@
   },
   "homepage": "https://github.com/Sermi13/Chat-Room-project#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "query-string": "^7.1.1",
+    "ws": "^8.8.0"
   }
 }
